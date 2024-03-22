@@ -1,0 +1,18 @@
+Nom : Dive Beneath
+
+Premice : Un scaphandre hanté, qui essaie de retracer son histoire. Tout ca se passant sur des vieux docks malfamé et daans une brume épaisse porteuse d'une malédiction. Tout le commerce tourne autour des carapace de crustacé rare.
+
+Principe : L'amelioration se fait par partie de scaphandre, qui appartenait a des anciens plongeurs, dont on doit triompher en combat singulier de boss. Ceux-ci étant des victimes de la malédiction. Ne pouvant être sauvé
+
+Originalitée : Il combat des crabes :) et c'est un scaphandre hanté
+
+Boucles :▪ Combbatre -> Items -> Vendre -> Argent -> Ameliorer -> | R = Amelioration O = Argent C = Combattre
+	 ▪ Suivre une piste -> Trouver un boss -> Le vaincre -> Obtenir un morceau d'armure -> Nouvelle capacitée | R = Capacité O = Morceau d'armure C = Boss
+ 
+Test : 
+
+Objets : Crabe1 Crabe2 Scaphandre-Boss(Combien ?) Pnj(Combien ?) Armure(Combien ?) Pièces Carapace Tonneau Caisse
+Actions : Attaquer Bloquer Fouiller Charger Esquiver
+Competences : Reflexe 
+
+Develloper l'histoire de la brume et les actions du personnage
