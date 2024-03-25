@@ -148,8 +148,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 20
-      y: 4
+      x: 36
+      y: 26
       width: 6
       height: 13
     spriteID: 5dd9f7add07d5264699c4aeb030824ff
@@ -160,7 +160,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 20, y: 4}
+    uvTransform: {x: 36, y: 26}
   - name: Coin_Frame_2
     originalName: 
     pivot: {x: 0.5, y: -0.5}
@@ -188,8 +188,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 20
-      y: 25
+      x: 36
+      y: 47
       width: 6
       height: 13
     spriteID: 21f3a453a73cd0645928a4d0d7f5b79f
@@ -200,7 +200,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 20, y: 25}
+    uvTransform: {x: 36, y: 47}
   - name: Coin_Frame_4
     originalName: 
     pivot: {x: 0.5, y: -0.42857146}
@@ -223,15 +223,15 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 26}
   - name: Coin_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: -0.4615385}
+    pivot: {x: 0.5, y: -0.42857146}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 20
-      y: 46
-      width: 6
-      height: 13
+      y: 4
+      width: 8
+      height: 14
     spriteID: e2288a76d0e52f04198feaa4b60b2ded
     spriteBone: []
     spriteOutline: []
@@ -240,18 +240,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 20, y: 46}
+    uvTransform: {x: 20, y: 4}
   - name: Coin_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: -0.5}
+    pivot: {x: 0.5, y: -0.4615385}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 34
-      y: 25
-      width: 4
-      height: 12
+      x: 52
+      y: 4
+      width: 6
+      height: 13
     spriteID: 86c32185d7f50464ebd02c0279ce4eb3
     spriteBone: []
     spriteOutline: []
@@ -260,18 +260,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 34, y: 25}
+    uvTransform: {x: 52, y: 4}
   - name: Coin_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: -0.4615385}
+    pivot: {x: 0.5, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 34
-      y: 4
-      width: 6
-      height: 13
+      x: 20
+      y: 48
+      width: 4
+      height: 12
     spriteID: 6a7df5e728fa7204490f3070ad7327d7
     spriteBone: []
     spriteOutline: []
@@ -280,7 +280,67 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 34, y: 4}
+    uvTransform: {x: 20, y: 48}
+  - name: Coin_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.4615385}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 25
+      width: 6
+      height: 13
+    spriteID: fb7eb31f3879bbf42b4306b2176bd69e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 25}
+  - name: Coin_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.42857146}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 26
+      width: 8
+      height: 14
+    spriteID: 67392867b598705499e8a9c505d97327
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 20, y: 26}
+  - name: Coin_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.42857146}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 4
+      width: 8
+      height: 14
+    spriteID: 053c53376a3c17e44a7d82faad751d19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -333,27 +393,51 @@ ScriptedImporter:
     - name: Coin_Frame_5
       frameIndex: 5
       cellRect:
+        x: 12
+        y: 6
+        width: 8
+        height: 14
+      spriteId: e2288a76d0e52f04198feaa4b60b2ded
+    - name: Coin_Frame_6
+      frameIndex: 6
+      cellRect:
         x: 13
         y: 6
         width: 6
         height: 13
-      spriteId: e2288a76d0e52f04198feaa4b60b2ded
-    - name: Coin_Frame_6
-      frameIndex: 6
+      spriteId: 86c32185d7f50464ebd02c0279ce4eb3
+    - name: Coin_Frame_7
+      frameIndex: 7
       cellRect:
         x: 14
         y: 6
         width: 4
         height: 12
-      spriteId: 86c32185d7f50464ebd02c0279ce4eb3
-    - name: Coin_Frame_7
-      frameIndex: 7
+      spriteId: 6a7df5e728fa7204490f3070ad7327d7
+    - name: Coin_Frame_8
+      frameIndex: 8
       cellRect:
         x: 13
         y: 6
         width: 6
         height: 13
-      spriteId: 6a7df5e728fa7204490f3070ad7327d7
+      spriteId: fb7eb31f3879bbf42b4306b2176bd69e
+    - name: Coin_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 12
+        y: 6
+        width: 8
+        height: 14
+      spriteId: 67392867b598705499e8a9c505d97327
+    - name: Coin_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 12
+        y: 6
+        width: 8
+        height: 14
+      spriteId: 053c53376a3c17e44a7d82faad751d19
     linkedCells: []
     parentIndex: -1
   platformSettings:

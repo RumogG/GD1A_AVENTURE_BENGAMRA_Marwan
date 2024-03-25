@@ -1,38 +1,8 @@
 fileFormatVersion: 2
-guid: 926bb63a8e1aa92418c4fba9b47bb9aa
+guid: 7d6da75cf77979c4483c4a00716bdfcb
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: Idle
-    second: {fileID: 7400000, guid: d1c283ba9c53db74db52587aaaea666a, type: 2}
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: IdleBackWard
-    second: {fileID: 7400000, guid: 515af341ccc8a46408721cb1cd64bf0d, type: 2}
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: RunningBackWard
-    second: {fileID: 7400000, guid: abdbe979c9b1b894a9a0af47d0e74fef, type: 2}
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: RunningFront
-    second: {fileID: 7400000, guid: f406b31c173ca014aa147924f6439d4f, type: 2}
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: RunningLeft
-    second: {fileID: 7400000, guid: a9dc1f07121bdff4c82c85e0f8a7dd49, type: 2}
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: RunningRight
-    second: {fileID: 7400000, guid: c0ca57910444acf42aee3ad5f5d449bc, type: 2}
+  externalObjects: {}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -110,7 +80,7 @@ ScriptedImporter:
     mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
-    generateAnimationClips: 1
+    generateAnimationClips: 0
     addSortingGroup: 1
     addShadowCasters: 0
   asepriteImporterSettings:
@@ -123,11 +93,11 @@ ScriptedImporter:
     mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
-    generateAnimationClips: 1
+    generateAnimationClips: 0
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638467929152879673
+  platformSettingsDirtyTick: 638467439577415058
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -151,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Perso_Frame_0
+  - name: PersoO_Frame_0
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -162,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 31
-    spriteID: c8e52a4365800ee47bc022b58f867b4e
+    spriteID: e7bb521b98758b1409de3937166f1549
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -171,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Perso_Frame_1
+  - name: PersoO_Frame_1
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -182,7 +152,7 @@ ScriptedImporter:
       y: 43
       width: 20
       height: 31
-    spriteID: c7009ac40807a274bb7bcdd286a3d007
+    spriteID: 88ff437dfcc30d049adb61d8f0ae39e6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -191,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 43}
-  - name: Perso_Frame_2
+  - name: PersoO_Frame_2
     originalName: 
     pivot: {x: 0.5, y: -0.033333335}
     alignment: 9
@@ -202,7 +172,7 @@ ScriptedImporter:
       y: 199
       width: 20
       height: 30
-    spriteID: 94aeb36820611b743ac71792fe5a03cf
+    spriteID: 62b72fb5a07137448aec70c8542a1427
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -211,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 88, y: 199}
-  - name: Perso_Frame_3
+  - name: PersoO_Frame_3
     originalName: 
     pivot: {x: 0.5, y: -0.033333335}
     alignment: 9
@@ -222,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 30
-    spriteID: abe276d4ffbc9054bb27dc8dcc9a40cf
+    spriteID: c76d995e2a9c17d43bf70a1df45a6ebb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -231,7 +201,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 116, y: 4}
-  - name: Perso_Frame_4
+  - name: PersoO_Frame_4
     originalName: 
     pivot: {x: 0.5, y: -0.033333335}
     alignment: 9
@@ -242,7 +212,7 @@ ScriptedImporter:
       y: 42
       width: 20
       height: 30
-    spriteID: 33eee33577d8e3c4ba29b104bb1a1160
+    spriteID: d830fe7c3b10de7469675e8b9dab155f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -251,7 +221,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 116, y: 42}
-  - name: Perso_Frame_5
+  - name: PersoO_Frame_5
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -262,7 +232,7 @@ ScriptedImporter:
       y: 82
       width: 20
       height: 31
-    spriteID: e1c4d428e60cf934b875368e940fccc0
+    spriteID: 11c6285ba8b7c134488d67c64caf3803
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -271,7 +241,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 82}
-  - name: Perso_Frame_6
+  - name: PersoO_Frame_6
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -282,7 +252,7 @@ ScriptedImporter:
       y: 121
       width: 20
       height: 31
-    spriteID: bbfb6ca22fd086540886fc4feb32e149
+    spriteID: d37c7d97b98ee3049be9d5e2bf3ae273
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -291,7 +261,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 121}
-  - name: Perso_Frame_7
+  - name: PersoO_Frame_7
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -302,7 +272,7 @@ ScriptedImporter:
       y: 160
       width: 20
       height: 31
-    spriteID: 99eb99d614d354c4791bc2eb53cccbb8
+    spriteID: b1de70f65e8e85e4db91dcd5e8228313
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -311,7 +281,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 160}
-  - name: Perso_Frame_8
+  - name: PersoO_Frame_8
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -322,7 +292,7 @@ ScriptedImporter:
       y: 199
       width: 20
       height: 31
-    spriteID: f8c60cb8a08ceaf479dcc9cedad6a3ad
+    spriteID: 120c740cf2cc669488d8094dd9c45b3b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -331,7 +301,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 199}
-  - name: Perso_Frame_9
+  - name: PersoO_Frame_9
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -342,7 +312,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 31
-    spriteID: e7b99c6345decb94e81899c97fc26328
+    spriteID: a07d3704453d47146829b1c4ad4d6048
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -351,7 +321,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 32, y: 4}
-  - name: Perso_Frame_10
+  - name: PersoO_Frame_10
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -362,7 +332,7 @@ ScriptedImporter:
       y: 43
       width: 20
       height: 31
-    spriteID: 70c69221713bdc84fbf86fb937be47f9
+    spriteID: 4fdba72afa5fd4a49837d316a3f973eb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -371,7 +341,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 32, y: 43}
-  - name: Perso_Frame_11
+  - name: PersoO_Frame_11
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -382,7 +352,7 @@ ScriptedImporter:
       y: 82
       width: 20
       height: 31
-    spriteID: e8d19b24f2ad54d4f9bda5bc8283c079
+    spriteID: 74a209023c6304e4b8729c69c14a3de2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -391,7 +361,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 32, y: 82}
-  - name: Perso_Frame_12
+  - name: PersoO_Frame_12
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -402,7 +372,7 @@ ScriptedImporter:
       y: 121
       width: 20
       height: 31
-    spriteID: 38ffe9100b9b1d14d98c69552bb83979
+    spriteID: 45ae4ed5ac74fbe4693c2617e44720c7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -411,7 +381,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 32, y: 121}
-  - name: Perso_Frame_13
+  - name: PersoO_Frame_13
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -422,7 +392,7 @@ ScriptedImporter:
       y: 160
       width: 20
       height: 31
-    spriteID: eff69c0f9145c904dbdebc8e3acbe24d
+    spriteID: cb3a751b976229c4286a085c676b0b71
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -431,7 +401,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 32, y: 160}
-  - name: Perso_Frame_14
+  - name: PersoO_Frame_14
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -442,7 +412,7 @@ ScriptedImporter:
       y: 199
       width: 20
       height: 31
-    spriteID: 83828b8ad58349e4ba3ca2044053ea97
+    spriteID: 7161a0db949eaca4ca50f211a923a228
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -451,7 +421,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 32, y: 199}
-  - name: Perso_Frame_15
+  - name: PersoO_Frame_15
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -462,7 +432,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 31
-    spriteID: 3a634c7e3a56df34ba4dfd69ca395ef4
+    spriteID: ba19e75589421d24ab81dc07819387a6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -471,7 +441,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 60, y: 4}
-  - name: Perso_Frame_16
+  - name: PersoO_Frame_16
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -482,7 +452,7 @@ ScriptedImporter:
       y: 43
       width: 20
       height: 31
-    spriteID: 949a14db1ed1d7e459888e1c46c427c2
+    spriteID: e7668c5195dcc274e893e7473ee7d61e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -491,7 +461,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 60, y: 43}
-  - name: Perso_Frame_17
+  - name: PersoO_Frame_17
     originalName: 
     pivot: {x: 0.5, y: -0.033333335}
     alignment: 9
@@ -502,7 +472,7 @@ ScriptedImporter:
       y: 80
       width: 20
       height: 30
-    spriteID: 18627aa575cd14a4483d9d3e27eb0b97
+    spriteID: c45ad3fcecf74b7468771f205bbb52c1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -511,7 +481,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 116, y: 80}
-  - name: Perso_Frame_18
+  - name: PersoO_Frame_18
     originalName: 
     pivot: {x: 0.5, y: -0.033333335}
     alignment: 9
@@ -522,7 +492,7 @@ ScriptedImporter:
       y: 118
       width: 20
       height: 30
-    spriteID: ffd462967d0404f47b7e263663b62fc2
+    spriteID: 85b18839559ec164a980ec02ec3c480c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -531,7 +501,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 116, y: 118}
-  - name: Perso_Frame_19
+  - name: PersoO_Frame_19
     originalName: 
     pivot: {x: 0.5, y: -0.033333335}
     alignment: 9
@@ -542,7 +512,7 @@ ScriptedImporter:
       y: 156
       width: 20
       height: 30
-    spriteID: eca6dbd136b644641af280180ff1b356
+    spriteID: 7b8bec76f92f4f246a7921da94acdde5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -551,7 +521,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 116, y: 156}
-  - name: Perso_Frame_20
+  - name: PersoO_Frame_20
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -562,7 +532,7 @@ ScriptedImporter:
       y: 82
       width: 20
       height: 31
-    spriteID: f65d14d5b171d4944ac4cfecdcb7670b
+    spriteID: 2a5bcd3ab883fde4c85a4ac7728e0772
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -571,7 +541,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 60, y: 82}
-  - name: Perso_Frame_21
+  - name: PersoO_Frame_21
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -582,7 +552,7 @@ ScriptedImporter:
       y: 121
       width: 20
       height: 31
-    spriteID: cc367440331e94643bb74a8e20c36327
+    spriteID: 9c0c48e2e807ffd4bbb8c996e36ce112
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -591,7 +561,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 60, y: 121}
-  - name: Perso_Frame_22
+  - name: PersoO_Frame_22
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -602,7 +572,7 @@ ScriptedImporter:
       y: 160
       width: 20
       height: 31
-    spriteID: 97388497620ae6648b9cdc54c09d769f
+    spriteID: 226793568c2792345a0ad48c58f5ae4a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -611,7 +581,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 60, y: 160}
-  - name: Perso_Frame_23
+  - name: PersoO_Frame_23
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -622,7 +592,7 @@ ScriptedImporter:
       y: 199
       width: 20
       height: 31
-    spriteID: c342f0f0370814542ba670b28cf12945
+    spriteID: f021af2964ccdf3489f5b3c00c0cffd0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -631,7 +601,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 60, y: 199}
-  - name: Perso_Frame_24
+  - name: PersoO_Frame_24
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -642,7 +612,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 31
-    spriteID: 8843eba86e3075b4382ad8b5667465fa
+    spriteID: 6e361df3ec82fb34698c7935b5e11fe8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -651,7 +621,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 88, y: 4}
-  - name: Perso_Frame_25
+  - name: PersoO_Frame_25
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -662,7 +632,7 @@ ScriptedImporter:
       y: 43
       width: 20
       height: 31
-    spriteID: 393fe2dbe60524a44adabd4e132546ba
+    spriteID: a789b6ceaac23de45a69986ddc4b3378
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -671,7 +641,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 88, y: 43}
-  - name: Perso_Frame_26
+  - name: PersoO_Frame_26
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -682,7 +652,7 @@ ScriptedImporter:
       y: 82
       width: 20
       height: 31
-    spriteID: 0172729e912cf8e43853807e40d636eb
+    spriteID: 348f9924a64aac0468737c7bd4f7d485
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -691,7 +661,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 88, y: 82}
-  - name: Perso_Frame_27
+  - name: PersoO_Frame_27
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -702,7 +672,7 @@ ScriptedImporter:
       y: 121
       width: 20
       height: 31
-    spriteID: dd375af97a3bc8e478a5a5536131e262
+    spriteID: 84a53690802dc8c4ab29dc3bf192ff21
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -711,7 +681,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 88, y: 121}
-  - name: Perso_Frame_28
+  - name: PersoO_Frame_28
     originalName: 
     pivot: {x: 0.5, y: -0.032258064}
     alignment: 9
@@ -722,7 +692,7 @@ ScriptedImporter:
       y: 160
       width: 20
       height: 31
-    spriteID: 77f6276883f8af84b938f140de3a9230
+    spriteID: 4c5e4235e248f7846ae1623bd19265ad
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -731,7 +701,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 88, y: 160}
-  - name: Perso_Frame_29
+  - name: PersoO_Frame_29
     originalName: 
     pivot: {x: 0.53846157, y: -0.03448276}
     alignment: 9
@@ -742,7 +712,7 @@ ScriptedImporter:
       y: 194
       width: 13
       height: 29
-    spriteID: af01ad403f81688428bc73237794c817
+    spriteID: a71d421c4724c164eae0db900ad25f76
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -751,731 +721,255 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 116, y: 194}
-  - name: Perso_Frame_30
-    originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 144
-      y: 4
-      width: 13
-      height: 29
-    spriteID: 8af2757d5548bed4497907fcbfd0497b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 144, y: 4}
-  - name: Perso_Frame_31
-    originalName: 
-    pivot: {x: 0.53846157, y: -0.035714287}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 186
-      y: 41
-      width: 13
-      height: 28
-    spriteID: 30a8514443eec254f93d83ea3186ff7f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 186, y: 41}
-  - name: Perso_Frame_32
-    originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 144
-      y: 41
-      width: 13
-      height: 29
-    spriteID: 09feb77399a293842978e2347f69771d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 144, y: 41}
-  - name: Perso_Frame_33
-    originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 144
-      y: 78
-      width: 13
-      height: 29
-    spriteID: d85ca1b0fab0bd8408ea67f7e3b03de9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 144, y: 78}
-  - name: Perso_Frame_34
-    originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 144
-      y: 115
-      width: 13
-      height: 29
-    spriteID: ba10d7f5797f6d0489fa456fd8c88ae4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 144, y: 115}
-  - name: Perso_Frame_35
-    originalName: 
-    pivot: {x: 0.53846157, y: -0.035714287}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 186
-      y: 77
-      width: 13
-      height: 28
-    spriteID: b9448857f11401a498e971270dfbbafb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 186, y: 77}
-  - name: Perso_Frame_36
-    originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 144
-      y: 152
-      width: 13
-      height: 29
-    spriteID: 8abf968ea98547049beff6ae45a0f9bf
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 144, y: 152}
-  - name: Perso_Frame_37
-    originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 144
-      y: 189
-      width: 13
-      height: 29
-    spriteID: e1d56adc609df3b479f55abf64dc8fc8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 144, y: 189}
-  - name: Perso_Frame_38
-    originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 165
-      y: 4
-      width: 13
-      height: 29
-    spriteID: c55970d8c021e654bb2b64d981f87810
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 165, y: 4}
-  - name: Perso_Frame_39
-    originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 165
-      y: 41
-      width: 13
-      height: 29
-    spriteID: 9c2da4b3e525b37458f1a477544aafdf
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 165, y: 41}
-  - name: Perso_Frame_40
-    originalName: 
-    pivot: {x: 0.4615385, y: -0.035714287}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 186
-      y: 113
-      width: 13
-      height: 28
-    spriteID: d918e33ff94031047a672070c826c1b8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 186, y: 113}
-  - name: Perso_Frame_41
-    originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 165
-      y: 78
-      width: 13
-      height: 29
-    spriteID: 8f16a9aa77ee29c4393bc364081d7116
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 165, y: 78}
-  - name: Perso_Frame_42
-    originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 165
-      y: 115
-      width: 13
-      height: 29
-    spriteID: 9f7280780901645429c703f73fd2da79
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 165, y: 115}
-  - name: Perso_Frame_43
-    originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 165
-      y: 152
-      width: 13
-      height: 29
-    spriteID: 35ce694d5a81bec40ad06ec17f9bfb38
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 165, y: 152}
-  - name: Perso_Frame_44
-    originalName: 
-    pivot: {x: 0.4615385, y: -0.035714287}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 186
-      y: 149
-      width: 13
-      height: 28
-    spriteID: 62775677a28ec6642948d1f707ea0e0b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 186, y: 149}
-  - name: Perso_Frame_45
-    originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 165
-      y: 189
-      width: 13
-      height: 29
-    spriteID: 37a1ed447b259fa41bd966bcb0b89260
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 165, y: 189}
-  - name: Perso_Frame_46
-    originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 186
-      y: 4
-      width: 13
-      height: 29
-    spriteID: 4ece797d2380aec418f59d66e4160231
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 186, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 228487195
-    name: Perso
+    guid: -371412124
+    name: PersoO
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Perso_Frame_0
+    - name: PersoO_Frame_0
       frameIndex: 0
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: c8e52a4365800ee47bc022b58f867b4e
-    - name: Perso_Frame_1
+      spriteId: e7bb521b98758b1409de3937166f1549
+    - name: PersoO_Frame_1
       frameIndex: 1
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: c7009ac40807a274bb7bcdd286a3d007
-    - name: Perso_Frame_2
+      spriteId: 88ff437dfcc30d049adb61d8f0ae39e6
+    - name: PersoO_Frame_2
       frameIndex: 2
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 30
-      spriteId: 94aeb36820611b743ac71792fe5a03cf
-    - name: Perso_Frame_3
+      spriteId: 62b72fb5a07137448aec70c8542a1427
+    - name: PersoO_Frame_3
       frameIndex: 3
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 30
-      spriteId: abe276d4ffbc9054bb27dc8dcc9a40cf
-    - name: Perso_Frame_4
+      spriteId: c76d995e2a9c17d43bf70a1df45a6ebb
+    - name: PersoO_Frame_4
       frameIndex: 4
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 30
-      spriteId: 33eee33577d8e3c4ba29b104bb1a1160
-    - name: Perso_Frame_5
+      spriteId: d830fe7c3b10de7469675e8b9dab155f
+    - name: PersoO_Frame_5
       frameIndex: 5
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: e1c4d428e60cf934b875368e940fccc0
-    - name: Perso_Frame_6
+      spriteId: 11c6285ba8b7c134488d67c64caf3803
+    - name: PersoO_Frame_6
       frameIndex: 6
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: bbfb6ca22fd086540886fc4feb32e149
-    - name: Perso_Frame_7
+      spriteId: d37c7d97b98ee3049be9d5e2bf3ae273
+    - name: PersoO_Frame_7
       frameIndex: 7
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: 99eb99d614d354c4791bc2eb53cccbb8
-    - name: Perso_Frame_8
+      spriteId: b1de70f65e8e85e4db91dcd5e8228313
+    - name: PersoO_Frame_8
       frameIndex: 8
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: f8c60cb8a08ceaf479dcc9cedad6a3ad
-    - name: Perso_Frame_9
+      spriteId: 120c740cf2cc669488d8094dd9c45b3b
+    - name: PersoO_Frame_9
       frameIndex: 9
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: e7b99c6345decb94e81899c97fc26328
-    - name: Perso_Frame_10
+      spriteId: a07d3704453d47146829b1c4ad4d6048
+    - name: PersoO_Frame_10
       frameIndex: 10
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: 70c69221713bdc84fbf86fb937be47f9
-    - name: Perso_Frame_11
+      spriteId: 4fdba72afa5fd4a49837d316a3f973eb
+    - name: PersoO_Frame_11
       frameIndex: 11
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: e8d19b24f2ad54d4f9bda5bc8283c079
-    - name: Perso_Frame_12
+      spriteId: 74a209023c6304e4b8729c69c14a3de2
+    - name: PersoO_Frame_12
       frameIndex: 12
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: 38ffe9100b9b1d14d98c69552bb83979
-    - name: Perso_Frame_13
+      spriteId: 45ae4ed5ac74fbe4693c2617e44720c7
+    - name: PersoO_Frame_13
       frameIndex: 13
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: eff69c0f9145c904dbdebc8e3acbe24d
-    - name: Perso_Frame_14
+      spriteId: cb3a751b976229c4286a085c676b0b71
+    - name: PersoO_Frame_14
       frameIndex: 14
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: 83828b8ad58349e4ba3ca2044053ea97
-    - name: Perso_Frame_15
+      spriteId: 7161a0db949eaca4ca50f211a923a228
+    - name: PersoO_Frame_15
       frameIndex: 15
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: 3a634c7e3a56df34ba4dfd69ca395ef4
-    - name: Perso_Frame_16
+      spriteId: ba19e75589421d24ab81dc07819387a6
+    - name: PersoO_Frame_16
       frameIndex: 16
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: 949a14db1ed1d7e459888e1c46c427c2
-    - name: Perso_Frame_17
+      spriteId: e7668c5195dcc274e893e7473ee7d61e
+    - name: PersoO_Frame_17
       frameIndex: 17
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 30
-      spriteId: 18627aa575cd14a4483d9d3e27eb0b97
-    - name: Perso_Frame_18
+      spriteId: c45ad3fcecf74b7468771f205bbb52c1
+    - name: PersoO_Frame_18
       frameIndex: 18
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 30
-      spriteId: ffd462967d0404f47b7e263663b62fc2
-    - name: Perso_Frame_19
+      spriteId: 85b18839559ec164a980ec02ec3c480c
+    - name: PersoO_Frame_19
       frameIndex: 19
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 30
-      spriteId: eca6dbd136b644641af280180ff1b356
-    - name: Perso_Frame_20
+      spriteId: 7b8bec76f92f4f246a7921da94acdde5
+    - name: PersoO_Frame_20
       frameIndex: 20
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: f65d14d5b171d4944ac4cfecdcb7670b
-    - name: Perso_Frame_21
+      spriteId: 2a5bcd3ab883fde4c85a4ac7728e0772
+    - name: PersoO_Frame_21
       frameIndex: 21
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: cc367440331e94643bb74a8e20c36327
-    - name: Perso_Frame_22
+      spriteId: 9c0c48e2e807ffd4bbb8c996e36ce112
+    - name: PersoO_Frame_22
       frameIndex: 22
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: 97388497620ae6648b9cdc54c09d769f
-    - name: Perso_Frame_23
+      spriteId: 226793568c2792345a0ad48c58f5ae4a
+    - name: PersoO_Frame_23
       frameIndex: 23
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: c342f0f0370814542ba670b28cf12945
-    - name: Perso_Frame_24
+      spriteId: f021af2964ccdf3489f5b3c00c0cffd0
+    - name: PersoO_Frame_24
       frameIndex: 24
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: 8843eba86e3075b4382ad8b5667465fa
-    - name: Perso_Frame_25
+      spriteId: 6e361df3ec82fb34698c7935b5e11fe8
+    - name: PersoO_Frame_25
       frameIndex: 25
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: 393fe2dbe60524a44adabd4e132546ba
-    - name: Perso_Frame_26
+      spriteId: a789b6ceaac23de45a69986ddc4b3378
+    - name: PersoO_Frame_26
       frameIndex: 26
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: 0172729e912cf8e43853807e40d636eb
-    - name: Perso_Frame_27
+      spriteId: 348f9924a64aac0468737c7bd4f7d485
+    - name: PersoO_Frame_27
       frameIndex: 27
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: dd375af97a3bc8e478a5a5536131e262
-    - name: Perso_Frame_28
+      spriteId: 84a53690802dc8c4ab29dc3bf192ff21
+    - name: PersoO_Frame_28
       frameIndex: 28
       cellRect:
         x: 6
         y: 1
         width: 20
         height: 31
-      spriteId: 77f6276883f8af84b938f140de3a9230
-    - name: Perso_Frame_29
+      spriteId: 4c5e4235e248f7846ae1623bd19265ad
+    - name: PersoO_Frame_29
       frameIndex: 29
       cellRect:
         x: 9
         y: 1
         width: 13
         height: 29
-      spriteId: af01ad403f81688428bc73237794c817
-    - name: Perso_Frame_30
-      frameIndex: 30
-      cellRect:
-        x: 9
-        y: 1
-        width: 13
-        height: 29
-      spriteId: 8af2757d5548bed4497907fcbfd0497b
-    - name: Perso_Frame_31
-      frameIndex: 31
-      cellRect:
-        x: 9
-        y: 1
-        width: 13
-        height: 28
-      spriteId: 30a8514443eec254f93d83ea3186ff7f
-    - name: Perso_Frame_32
-      frameIndex: 32
-      cellRect:
-        x: 9
-        y: 1
-        width: 13
-        height: 29
-      spriteId: 09feb77399a293842978e2347f69771d
-    - name: Perso_Frame_33
-      frameIndex: 33
-      cellRect:
-        x: 9
-        y: 1
-        width: 13
-        height: 29
-      spriteId: d85ca1b0fab0bd8408ea67f7e3b03de9
-    - name: Perso_Frame_34
-      frameIndex: 34
-      cellRect:
-        x: 9
-        y: 1
-        width: 13
-        height: 29
-      spriteId: ba10d7f5797f6d0489fa456fd8c88ae4
-    - name: Perso_Frame_35
-      frameIndex: 35
-      cellRect:
-        x: 9
-        y: 1
-        width: 13
-        height: 28
-      spriteId: b9448857f11401a498e971270dfbbafb
-    - name: Perso_Frame_36
-      frameIndex: 36
-      cellRect:
-        x: 9
-        y: 1
-        width: 13
-        height: 29
-      spriteId: 8abf968ea98547049beff6ae45a0f9bf
-    - name: Perso_Frame_37
-      frameIndex: 37
-      cellRect:
-        x: 9
-        y: 1
-        width: 13
-        height: 29
-      spriteId: e1d56adc609df3b479f55abf64dc8fc8
-    - name: Perso_Frame_38
-      frameIndex: 38
-      cellRect:
-        x: 10
-        y: 1
-        width: 13
-        height: 29
-      spriteId: c55970d8c021e654bb2b64d981f87810
-    - name: Perso_Frame_39
-      frameIndex: 39
-      cellRect:
-        x: 10
-        y: 1
-        width: 13
-        height: 29
-      spriteId: 9c2da4b3e525b37458f1a477544aafdf
-    - name: Perso_Frame_40
-      frameIndex: 40
-      cellRect:
-        x: 10
-        y: 1
-        width: 13
-        height: 28
-      spriteId: d918e33ff94031047a672070c826c1b8
-    - name: Perso_Frame_41
-      frameIndex: 41
-      cellRect:
-        x: 10
-        y: 1
-        width: 13
-        height: 29
-      spriteId: 8f16a9aa77ee29c4393bc364081d7116
-    - name: Perso_Frame_42
-      frameIndex: 42
-      cellRect:
-        x: 10
-        y: 1
-        width: 13
-        height: 29
-      spriteId: 9f7280780901645429c703f73fd2da79
-    - name: Perso_Frame_43
-      frameIndex: 43
-      cellRect:
-        x: 10
-        y: 1
-        width: 13
-        height: 29
-      spriteId: 35ce694d5a81bec40ad06ec17f9bfb38
-    - name: Perso_Frame_44
-      frameIndex: 44
-      cellRect:
-        x: 10
-        y: 1
-        width: 13
-        height: 28
-      spriteId: 62775677a28ec6642948d1f707ea0e0b
-    - name: Perso_Frame_45
-      frameIndex: 45
-      cellRect:
-        x: 10
-        y: 1
-        width: 13
-        height: 29
-      spriteId: 37a1ed447b259fa41bd966bcb0b89260
-    - name: Perso_Frame_46
-      frameIndex: 46
-      cellRect:
-        x: 10
-        y: 1
-        width: 13
-        height: 29
-      spriteId: 4ece797d2380aec418f59d66e4160231
+      spriteId: a71d421c4724c164eae0db900ad25f76
     linkedCells: []
     parentIndex: -1
   platformSettings:

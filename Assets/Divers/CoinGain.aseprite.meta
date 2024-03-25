@@ -1,8 +1,13 @@
 fileFormatVersion: 2
-guid: c0fbea9573db9ad41ba349d1e44fb3f7
+guid: c65b490284ac8314680211a0ec2e554d
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: CoinGain_Clip
+    second: {fileID: 7400000, guid: 68342f8c8a8bf9846affb0b4a0b899c1, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -97,7 +102,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638469863433258796
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,38 +126,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Ennemi2
+  - name: CoinGain_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.1}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 82
-      y: 4
-      width: 30
-      height: 20
-    spriteID: 4d415e3aed704b24e84b99df1fcf2cd0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 82, y: 4}
-  - name: Ennemi2_Frame_1
-    originalName: 
-    pivot: {x: 0.48387095, y: -0.1}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 31
-      height: 20
-    spriteID: fdafd721b1753ed46b1c520a0f9cfc59
+      width: 5
+      height: 4
+    spriteID: d8cc269ae385ef043998e4348c062c44
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,38 +146,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Ennemi2_Frame_2
+  - name: CoinGain_Frame_2
     originalName: 
-    pivot: {x: 0.48387095, y: -0.1}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 43
-      y: 4
-      width: 31
-      height: 20
-    spriteID: fd8aef10e05d84b43bdfa4d8c2783c01
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 43, y: 4}
-  - name: Ennemi2_Frame_3
-    originalName: 
-    pivot: {x: 0.48387095, y: -0.15789473}
+    pivot: {x: 0.5, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 32
-      width: 31
-      height: 19
-    spriteID: a96d682fe83c05d4fa8e7c9494d54289
+      y: 16
+      width: 5
+      height: 4
+    spriteID: e04b7188b24d3e04db8bc9fe3b97fa97
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,19 +165,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 32}
-  - name: Ennemi2_Frame_4
+    uvTransform: {x: 4, y: 16}
+  - name: CoinGain_Frame_3
     originalName: 
-    pivot: {x: 0.4666667, y: -0.15789473}
+    pivot: {x: 0.5, y: -1}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
-      y: 32
-      width: 30
-      height: 19
-    spriteID: 2ee53a4914107c84a8e97d65372cf987
+      x: 4
+      y: 28
+      width: 5
+      height: 4
+    spriteID: 9786b43822b77fb4d8c7b93dbe39a04a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,60 +185,124 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 32}
+    uvTransform: {x: 4, y: 28}
+  - name: CoinGain_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -1.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 40
+      width: 5
+      height: 4
+    spriteID: d393e099333108d47983d4ca8d4e3a8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 40}
+  - name: CoinGain_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 52
+      width: 5
+      height: 4
+    spriteID: 0699975f25a5aa04699572d0364c282c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 52}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 111899716
-    name: Ennemi2
+    guid: 1319350584
+    name: CoinGain
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Ennemi2_Frame_0
-      frameIndex: 0
-      cellRect:
-        x: 1
-        y: 2
-        width: 30
-        height: 20
-      spriteId: 4d415e3aed704b24e84b99df1fcf2cd0
-    - name: Ennemi2_Frame_1
+    - name: CoinGain_Frame_1
       frameIndex: 1
       cellRect:
-        x: 1
-        y: 2
-        width: 31
-        height: 20
-      spriteId: fdafd721b1753ed46b1c520a0f9cfc59
-    - name: Ennemi2_Frame_2
+        x: 0
+        y: 0
+        width: 5
+        height: 4
+      spriteId: d8cc269ae385ef043998e4348c062c44
+    - name: CoinGain_Frame_2
       frameIndex: 2
       cellRect:
-        x: 1
+        x: 0
         y: 2
-        width: 31
-        height: 20
-      spriteId: fd8aef10e05d84b43bdfa4d8c2783c01
-    - name: Ennemi2_Frame_3
+        width: 5
+        height: 4
+      spriteId: e04b7188b24d3e04db8bc9fe3b97fa97
+    - name: CoinGain_Frame_3
       frameIndex: 3
       cellRect:
-        x: 1
-        y: 3
-        width: 31
-        height: 19
-      spriteId: a96d682fe83c05d4fa8e7c9494d54289
-    - name: Ennemi2_Frame_4
+        x: 0
+        y: 4
+        width: 5
+        height: 4
+      spriteId: 9786b43822b77fb4d8c7b93dbe39a04a
+    - name: CoinGain_Frame_4
       frameIndex: 4
       cellRect:
-        x: 2
-        y: 3
-        width: 30
-        height: 19
-      spriteId: 2ee53a4914107c84a8e97d65372cf987
+        x: 0
+        y: 5
+        width: 5
+        height: 4
+      spriteId: d393e099333108d47983d4ca8d4e3a8c
+    - name: CoinGain_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 6
+        width: 5
+        height: 4
+      spriteId: 0699975f25a5aa04699572d0364c282c
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
+  canvasSize: {x: 5, y: 10}
