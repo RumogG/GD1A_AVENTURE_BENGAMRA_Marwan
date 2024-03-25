@@ -24,17 +24,17 @@ public class Coins : MonoBehaviour
     public void AddCoins(int count)
     {
         coinsCount += count;
-        //UpdateTextUI();
+        UpdateTextUI();
     }
 
     public void RemoveCoins(int count)
     {
         coinsCount -= count;
-        //UpdateTextUI();
+        UpdateTextUI();
     }
 
-    //public void UpdateTextUI(){
-        //coinsCountText.text = coinsCount.ToString();
-    //}
+    public void UpdateTextUI(){
+        coinsCountText.text = coinsCount.ToString();
+    }
 
 }
