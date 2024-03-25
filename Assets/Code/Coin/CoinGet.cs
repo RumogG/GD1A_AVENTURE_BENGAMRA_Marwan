@@ -10,6 +10,7 @@ public class CoinGet : MonoBehaviour
         {
             Coins.instance.AddCoins(1);
             CoinUIAnim.instance.CoinUIGet();
+            CoinUIStockAnim.instance.CoinUIStockGet();
             Destroy(gameObject);
 
         }
