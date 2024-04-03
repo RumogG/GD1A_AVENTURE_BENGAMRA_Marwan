@@ -5,6 +5,7 @@ using UnityEngine;
 public class Base : MonoBehaviour
 {
     public Animator animator;
+    public Rigidbody2D rb;
 
 
     void Update()
@@ -15,6 +16,20 @@ public class Base : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Magnitude", movement.magnitude);
 
-        transform.position = transform.position + (movement/1.2f) * Time.deltaTime;
+        //transform.position = transform.position + (movement/1.2f) * Time.deltaTime;
+        rb.velocity = new Vector2 (movement.x, movement.y);
+
+        if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
+        {
+            animator.SetFloat("LastMoveX", Input.GetAxisRaw("Horizontal"));
+            animator.SetFloat("LastMoveY", Input.GetAxisRaw("Vertical"));
+        }
+
+        if (Input.GetButton("Attack"))
+        {
+            animator.SetTrigger("Attack");
+                
+        }
+
     }
 }
