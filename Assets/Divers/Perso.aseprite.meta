@@ -163,7 +163,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Perso_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -183,7 +183,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Perso_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -203,7 +203,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 43}
   - name: Perso_Frame_2
     originalName: 
-    pivot: {x: 0.5, y: -0.033333335}
+    pivot: {x: 0.49999997, y: -0.33333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -223,7 +223,7 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 199}
   - name: Perso_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: -0.033333335}
+    pivot: {x: 0.49999997, y: -0.33333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -243,7 +243,7 @@ ScriptedImporter:
     uvTransform: {x: 116, y: 4}
   - name: Perso_Frame_4
     originalName: 
-    pivot: {x: 0.5, y: -0.033333335}
+    pivot: {x: 0.49999997, y: -0.33333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -263,7 +263,7 @@ ScriptedImporter:
     uvTransform: {x: 116, y: 42}
   - name: Perso_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -283,7 +283,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 82}
   - name: Perso_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -303,7 +303,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 121}
   - name: Perso_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -323,7 +323,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 160}
   - name: Perso_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -343,7 +343,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 199}
   - name: Perso_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -363,7 +363,7 @@ ScriptedImporter:
     uvTransform: {x: 32, y: 4}
   - name: Perso_Frame_10
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -383,7 +383,7 @@ ScriptedImporter:
     uvTransform: {x: 32, y: 43}
   - name: Perso_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -403,7 +403,7 @@ ScriptedImporter:
     uvTransform: {x: 32, y: 82}
   - name: Perso_Frame_12
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -423,7 +423,7 @@ ScriptedImporter:
     uvTransform: {x: 32, y: 121}
   - name: Perso_Frame_13
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -443,7 +443,7 @@ ScriptedImporter:
     uvTransform: {x: 32, y: 160}
   - name: Perso_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -463,7 +463,7 @@ ScriptedImporter:
     uvTransform: {x: 32, y: 199}
   - name: Perso_Frame_15
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -483,7 +483,7 @@ ScriptedImporter:
     uvTransform: {x: 60, y: 4}
   - name: Perso_Frame_16
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -503,7 +503,7 @@ ScriptedImporter:
     uvTransform: {x: 60, y: 43}
   - name: Perso_Frame_17
     originalName: 
-    pivot: {x: 0.5, y: -0.033333335}
+    pivot: {x: 0.49999997, y: -0.33333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -523,7 +523,7 @@ ScriptedImporter:
     uvTransform: {x: 116, y: 80}
   - name: Perso_Frame_18
     originalName: 
-    pivot: {x: 0.5, y: -0.033333335}
+    pivot: {x: 0.49999997, y: -0.33333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -543,7 +543,7 @@ ScriptedImporter:
     uvTransform: {x: 116, y: 118}
   - name: Perso_Frame_19
     originalName: 
-    pivot: {x: 0.5, y: -0.033333335}
+    pivot: {x: 0.49999997, y: -0.33333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -563,7 +563,7 @@ ScriptedImporter:
     uvTransform: {x: 116, y: 156}
   - name: Perso_Frame_20
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -583,7 +583,7 @@ ScriptedImporter:
     uvTransform: {x: 60, y: 82}
   - name: Perso_Frame_21
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -603,7 +603,7 @@ ScriptedImporter:
     uvTransform: {x: 60, y: 121}
   - name: Perso_Frame_22
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -623,7 +623,7 @@ ScriptedImporter:
     uvTransform: {x: 60, y: 160}
   - name: Perso_Frame_23
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -643,7 +643,7 @@ ScriptedImporter:
     uvTransform: {x: 60, y: 199}
   - name: Perso_Frame_24
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -663,7 +663,7 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 4}
   - name: Perso_Frame_25
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -683,7 +683,7 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 43}
   - name: Perso_Frame_26
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -703,7 +703,7 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 82}
   - name: Perso_Frame_27
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -723,7 +723,7 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 121}
   - name: Perso_Frame_28
     originalName: 
-    pivot: {x: 0.5, y: -0.032258064}
+    pivot: {x: 0.49999997, y: -0.32258067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -743,7 +743,7 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 160}
   - name: Perso_Frame_29
     originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
+    pivot: {x: 0.53846145, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -763,7 +763,7 @@ ScriptedImporter:
     uvTransform: {x: 116, y: 194}
   - name: Perso_Frame_30
     originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
+    pivot: {x: 0.53846145, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -783,7 +783,7 @@ ScriptedImporter:
     uvTransform: {x: 144, y: 4}
   - name: Perso_Frame_31
     originalName: 
-    pivot: {x: 0.53846157, y: -0.035714287}
+    pivot: {x: 0.53846145, y: -0.35714287}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -803,7 +803,7 @@ ScriptedImporter:
     uvTransform: {x: 207, y: 41}
   - name: Perso_Frame_32
     originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
+    pivot: {x: 0.53846145, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -823,7 +823,7 @@ ScriptedImporter:
     uvTransform: {x: 144, y: 41}
   - name: Perso_Frame_33
     originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
+    pivot: {x: 0.53846145, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -843,7 +843,7 @@ ScriptedImporter:
     uvTransform: {x: 144, y: 78}
   - name: Perso_Frame_34
     originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
+    pivot: {x: 0.53846145, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -863,7 +863,7 @@ ScriptedImporter:
     uvTransform: {x: 144, y: 115}
   - name: Perso_Frame_35
     originalName: 
-    pivot: {x: 0.53846157, y: -0.035714287}
+    pivot: {x: 0.53846145, y: -0.35714287}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -883,7 +883,7 @@ ScriptedImporter:
     uvTransform: {x: 207, y: 77}
   - name: Perso_Frame_36
     originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
+    pivot: {x: 0.53846145, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -903,7 +903,7 @@ ScriptedImporter:
     uvTransform: {x: 144, y: 152}
   - name: Perso_Frame_37
     originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
+    pivot: {x: 0.53846145, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -923,7 +923,7 @@ ScriptedImporter:
     uvTransform: {x: 144, y: 189}
   - name: Perso_Frame_38
     originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
+    pivot: {x: 0.46153846, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -943,7 +943,7 @@ ScriptedImporter:
     uvTransform: {x: 165, y: 4}
   - name: Perso_Frame_39
     originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
+    pivot: {x: 0.46153846, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -963,7 +963,7 @@ ScriptedImporter:
     uvTransform: {x: 165, y: 41}
   - name: Perso_Frame_40
     originalName: 
-    pivot: {x: 0.4615385, y: -0.035714287}
+    pivot: {x: 0.46153846, y: -0.35714287}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -983,7 +983,7 @@ ScriptedImporter:
     uvTransform: {x: 207, y: 113}
   - name: Perso_Frame_41
     originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
+    pivot: {x: 0.46153846, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1003,7 +1003,7 @@ ScriptedImporter:
     uvTransform: {x: 165, y: 78}
   - name: Perso_Frame_42
     originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
+    pivot: {x: 0.46153846, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1023,7 +1023,7 @@ ScriptedImporter:
     uvTransform: {x: 165, y: 115}
   - name: Perso_Frame_43
     originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
+    pivot: {x: 0.46153846, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1043,7 +1043,7 @@ ScriptedImporter:
     uvTransform: {x: 165, y: 152}
   - name: Perso_Frame_44
     originalName: 
-    pivot: {x: 0.4615385, y: -0.035714287}
+    pivot: {x: 0.46153846, y: -0.35714287}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1063,7 +1063,7 @@ ScriptedImporter:
     uvTransform: {x: 207, y: 149}
   - name: Perso_Frame_45
     originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
+    pivot: {x: 0.46153846, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1083,7 +1083,7 @@ ScriptedImporter:
     uvTransform: {x: 165, y: 189}
   - name: Perso_Frame_46
     originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
+    pivot: {x: 0.46153846, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1103,7 +1103,7 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 4}
   - name: Perso_Frame_47
     originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
+    pivot: {x: 0.53846145, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1123,7 +1123,7 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 41}
   - name: Perso_Frame_48
     originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
+    pivot: {x: 0.53846145, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1143,7 +1143,7 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 78}
   - name: Perso_Frame_49
     originalName: 
-    pivot: {x: 0.53846157, y: -0.035714287}
+    pivot: {x: 0.53846145, y: -0.35714287}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1163,7 +1163,7 @@ ScriptedImporter:
     uvTransform: {x: 207, y: 185}
   - name: Perso_Frame_50
     originalName: 
-    pivot: {x: 0.53846157, y: -0.035714287}
+    pivot: {x: 0.53846145, y: -0.35714287}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1183,7 +1183,7 @@ ScriptedImporter:
     uvTransform: {x: 207, y: 221}
   - name: Perso_Frame_51
     originalName: 
-    pivot: {x: 0.53846157, y: -0.035714287}
+    pivot: {x: 0.53846145, y: -0.35714287}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1203,7 +1203,7 @@ ScriptedImporter:
     uvTransform: {x: 228, y: 4}
   - name: Perso_Frame_52
     originalName: 
-    pivot: {x: 0.53846157, y: -0.03448276}
+    pivot: {x: 0.53846145, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1223,7 +1223,7 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 115}
   - name: Perso_Frame_53
     originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
+    pivot: {x: 0.46153846, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1243,7 +1243,7 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 152}
   - name: Perso_Frame_54
     originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
+    pivot: {x: 0.46153846, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1263,7 +1263,7 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 189}
   - name: Perso_Frame_55
     originalName: 
-    pivot: {x: 0.4615385, y: -0.035714287}
+    pivot: {x: 0.46153846, y: -0.35714287}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1283,7 +1283,7 @@ ScriptedImporter:
     uvTransform: {x: 228, y: 40}
   - name: Perso_Frame_56
     originalName: 
-    pivot: {x: 0.4615385, y: -0.035714287}
+    pivot: {x: 0.46153846, y: -0.35714287}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1303,7 +1303,7 @@ ScriptedImporter:
     uvTransform: {x: 228, y: 76}
   - name: Perso_Frame_57
     originalName: 
-    pivot: {x: 0.4615385, y: -0.035714287}
+    pivot: {x: 0.46153846, y: -0.35714287}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1323,7 +1323,7 @@ ScriptedImporter:
     uvTransform: {x: 228, y: 112}
   - name: Perso_Frame_58
     originalName: 
-    pivot: {x: 0.4615385, y: -0.03448276}
+    pivot: {x: 0.46153846, y: -0.3448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1353,472 +1353,472 @@ ScriptedImporter:
     - name: Perso_Frame_0
       frameIndex: 0
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: c8e52a4365800ee47bc022b58f867b4e
     - name: Perso_Frame_1
       frameIndex: 1
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: c7009ac40807a274bb7bcdd286a3d007
     - name: Perso_Frame_2
       frameIndex: 2
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 30
       spriteId: 94aeb36820611b743ac71792fe5a03cf
     - name: Perso_Frame_3
       frameIndex: 3
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 30
       spriteId: abe276d4ffbc9054bb27dc8dcc9a40cf
     - name: Perso_Frame_4
       frameIndex: 4
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 30
       spriteId: 33eee33577d8e3c4ba29b104bb1a1160
     - name: Perso_Frame_5
       frameIndex: 5
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: e1c4d428e60cf934b875368e940fccc0
     - name: Perso_Frame_6
       frameIndex: 6
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: bbfb6ca22fd086540886fc4feb32e149
     - name: Perso_Frame_7
       frameIndex: 7
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: 99eb99d614d354c4791bc2eb53cccbb8
     - name: Perso_Frame_8
       frameIndex: 8
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: f8c60cb8a08ceaf479dcc9cedad6a3ad
     - name: Perso_Frame_9
       frameIndex: 9
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: e7b99c6345decb94e81899c97fc26328
     - name: Perso_Frame_10
       frameIndex: 10
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: 70c69221713bdc84fbf86fb937be47f9
     - name: Perso_Frame_11
       frameIndex: 11
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: e8d19b24f2ad54d4f9bda5bc8283c079
     - name: Perso_Frame_12
       frameIndex: 12
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: 38ffe9100b9b1d14d98c69552bb83979
     - name: Perso_Frame_13
       frameIndex: 13
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: eff69c0f9145c904dbdebc8e3acbe24d
     - name: Perso_Frame_14
       frameIndex: 14
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: 83828b8ad58349e4ba3ca2044053ea97
     - name: Perso_Frame_15
       frameIndex: 15
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: 3a634c7e3a56df34ba4dfd69ca395ef4
     - name: Perso_Frame_16
       frameIndex: 16
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: 949a14db1ed1d7e459888e1c46c427c2
     - name: Perso_Frame_17
       frameIndex: 17
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 30
       spriteId: 18627aa575cd14a4483d9d3e27eb0b97
     - name: Perso_Frame_18
       frameIndex: 18
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 30
       spriteId: ffd462967d0404f47b7e263663b62fc2
     - name: Perso_Frame_19
       frameIndex: 19
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 30
       spriteId: eca6dbd136b644641af280180ff1b356
     - name: Perso_Frame_20
       frameIndex: 20
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: f65d14d5b171d4944ac4cfecdcb7670b
     - name: Perso_Frame_21
       frameIndex: 21
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: cc367440331e94643bb74a8e20c36327
     - name: Perso_Frame_22
       frameIndex: 22
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: 97388497620ae6648b9cdc54c09d769f
     - name: Perso_Frame_23
       frameIndex: 23
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: c342f0f0370814542ba670b28cf12945
     - name: Perso_Frame_24
       frameIndex: 24
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: 8843eba86e3075b4382ad8b5667465fa
     - name: Perso_Frame_25
       frameIndex: 25
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: 393fe2dbe60524a44adabd4e132546ba
     - name: Perso_Frame_26
       frameIndex: 26
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: 0172729e912cf8e43853807e40d636eb
     - name: Perso_Frame_27
       frameIndex: 27
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: dd375af97a3bc8e478a5a5536131e262
     - name: Perso_Frame_28
       frameIndex: 28
       cellRect:
-        x: 6
-        y: 1
+        x: 15
+        y: 10
         width: 20
         height: 31
       spriteId: 77f6276883f8af84b938f140de3a9230
     - name: Perso_Frame_29
       frameIndex: 29
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 29
       spriteId: af01ad403f81688428bc73237794c817
     - name: Perso_Frame_30
       frameIndex: 30
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 29
       spriteId: 8af2757d5548bed4497907fcbfd0497b
     - name: Perso_Frame_31
       frameIndex: 31
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 28
       spriteId: 30a8514443eec254f93d83ea3186ff7f
     - name: Perso_Frame_32
       frameIndex: 32
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 29
       spriteId: 09feb77399a293842978e2347f69771d
     - name: Perso_Frame_33
       frameIndex: 33
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 29
       spriteId: d85ca1b0fab0bd8408ea67f7e3b03de9
     - name: Perso_Frame_34
       frameIndex: 34
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 29
       spriteId: ba10d7f5797f6d0489fa456fd8c88ae4
     - name: Perso_Frame_35
       frameIndex: 35
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 28
       spriteId: b9448857f11401a498e971270dfbbafb
     - name: Perso_Frame_36
       frameIndex: 36
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 29
       spriteId: 8abf968ea98547049beff6ae45a0f9bf
     - name: Perso_Frame_37
       frameIndex: 37
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 29
       spriteId: e1d56adc609df3b479f55abf64dc8fc8
     - name: Perso_Frame_38
       frameIndex: 38
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 29
       spriteId: c55970d8c021e654bb2b64d981f87810
     - name: Perso_Frame_39
       frameIndex: 39
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 29
       spriteId: 9c2da4b3e525b37458f1a477544aafdf
     - name: Perso_Frame_40
       frameIndex: 40
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 28
       spriteId: d918e33ff94031047a672070c826c1b8
     - name: Perso_Frame_41
       frameIndex: 41
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 29
       spriteId: 8f16a9aa77ee29c4393bc364081d7116
     - name: Perso_Frame_42
       frameIndex: 42
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 29
       spriteId: 9f7280780901645429c703f73fd2da79
     - name: Perso_Frame_43
       frameIndex: 43
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 29
       spriteId: 35ce694d5a81bec40ad06ec17f9bfb38
     - name: Perso_Frame_44
       frameIndex: 44
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 28
       spriteId: 62775677a28ec6642948d1f707ea0e0b
     - name: Perso_Frame_45
       frameIndex: 45
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 29
       spriteId: 37a1ed447b259fa41bd966bcb0b89260
     - name: Perso_Frame_46
       frameIndex: 46
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 29
       spriteId: 4ece797d2380aec418f59d66e4160231
     - name: Perso_Frame_47
       frameIndex: 47
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 29
       spriteId: 00808da93660846479346bf1af10aae9
     - name: Perso_Frame_48
       frameIndex: 48
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 29
       spriteId: f988a1b9c2db7b34eb96e08aebc37862
     - name: Perso_Frame_49
       frameIndex: 49
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 28
       spriteId: f9a834875b074c94ebe038ab023c3fae
     - name: Perso_Frame_50
       frameIndex: 50
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 28
       spriteId: e3755b28442109a44bb59a5c4bc134fd
     - name: Perso_Frame_51
       frameIndex: 51
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 28
       spriteId: 3dcf246bb3c358543a46dac34c66c322
     - name: Perso_Frame_52
       frameIndex: 52
       cellRect:
-        x: 9
-        y: 1
+        x: 18
+        y: 10
         width: 13
         height: 29
       spriteId: 2244774163f65204e9080e7db8279a01
     - name: Perso_Frame_53
       frameIndex: 53
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 29
       spriteId: ffb1639379b3f66418bb09707684575e
     - name: Perso_Frame_54
       frameIndex: 54
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 29
       spriteId: d6b62ff21239ec242afe328724fb986e
     - name: Perso_Frame_55
       frameIndex: 55
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 28
       spriteId: b2736dabbe52acd4983e6b857ba53af7
     - name: Perso_Frame_56
       frameIndex: 56
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 28
       spriteId: caefbf335fc34ae49903693141a03e0b
     - name: Perso_Frame_57
       frameIndex: 57
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 28
       spriteId: ca860b30a38653e47a45c7bfb5d62aad
     - name: Perso_Frame_58
       frameIndex: 58
       cellRect:
-        x: 10
-        y: 1
+        x: 19
+        y: 10
         width: 13
         height: 29
       spriteId: c5bc670ad619c9547b0f8931107a3323
@@ -1852,4 +1852,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
+  canvasSize: {x: 50, y: 50}

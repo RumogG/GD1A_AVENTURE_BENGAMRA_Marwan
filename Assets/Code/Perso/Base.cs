@@ -6,6 +6,7 @@ public class Base : MonoBehaviour
 {
     public Animator animator;
     public Rigidbody2D rb;
+    public bool CanAtk = true;
 
 
     void Update()
@@ -25,11 +26,32 @@ public class Base : MonoBehaviour
             animator.SetFloat("LastMoveY", Input.GetAxisRaw("Vertical"));
         }
 
-        if (Input.GetButton("Attack"))
+        if (Input.GetButton("Attack") && CanAtk == true)
         {
-            animator.SetTrigger("Attack");
-                
+            Atk();
+            CanAtk = false;
         }
+    }
+
+    private void AtkFalse()
+    {
+        if (animator.GetBool("Attack") == true)
+        {
+            animator.SetBool("Attack", false);
+        }
+    }
+
+    private void Atk()
+    {
+
+     animator.SetBool("Attack", true);
+
+    }
+
+    private void AtkAtive()
+    {
+
+        CanAtk = true;
 
     }
 }
