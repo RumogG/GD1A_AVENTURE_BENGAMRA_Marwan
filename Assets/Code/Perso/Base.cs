@@ -31,6 +31,11 @@ public class Base : MonoBehaviour
             Atk();
             CanAtk = false;
         }
+
+        if (HealthBar.instance.health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void AtkFalse()
