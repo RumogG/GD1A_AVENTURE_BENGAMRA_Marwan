@@ -1,0 +1,448 @@
+fileFormatVersion: 2
+guid: d5504ee9c60f2414bb38a8a1229f8906
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: BossAtk_Clip
+    second: {fileID: 7400000, guid: 930c7eec410902742825cf8001c08929, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 0
+    addSortingGroup: 0
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 0
+    addSortingGroup: 0
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638487922669980562
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: BossAtk_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.34782606}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 50
+      height: 23
+    spriteID: 6d5b2c9eec1b21f48a7f83624b0c6871
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: BossAtk_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.34782606}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 35
+      width: 50
+      height: 23
+    spriteID: d51bea0812702a44e8e4be7d7cfa2ae2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 35}
+  - name: BossAtk_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.34782606}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 66
+      width: 50
+      height: 23
+    spriteID: 4aded1fd82e98c04eb113be1812ddc83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 66}
+  - name: BossAtk_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.34782606}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 97
+      width: 50
+      height: 23
+    spriteID: b87de2af514f2194498c30bc603dfaee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 97}
+  - name: BossAtk_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.34782606}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 128
+      width: 50
+      height: 23
+    spriteID: 14bb252a562c090449173c9b0be6b809
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 128}
+  - name: BossAtk_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.34782606}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 159
+      width: 50
+      height: 23
+    spriteID: a9f04f7927a85404384614759b6686f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 159}
+  - name: BossAtk_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.34782606}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 190
+      width: 50
+      height: 23
+    spriteID: 230971c8f91e7264e9f515a867df5853
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 190}
+  - name: BossAtk_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.34782606}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 221
+      width: 50
+      height: 23
+    spriteID: ca4ad8736e9336d4e8d8b14fbc10a5d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 221}
+  - name: BossAtk_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.34782606}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 4
+      width: 50
+      height: 23
+    spriteID: bbcd0843ae18fa74793181c309d67e53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 4}
+  - name: BossAtk_Frame_9
+    originalName: 
+    pivot: {x: 0.51111114, y: -0.45000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 35
+      width: 45
+      height: 20
+    spriteID: 33bd0a78794e08147914e0ea7b3fbf12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 35}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1428544883
+    name: BossAtk
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: BossAtk_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 8
+        width: 50
+        height: 23
+      spriteId: 6d5b2c9eec1b21f48a7f83624b0c6871
+    - name: BossAtk_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 8
+        width: 50
+        height: 23
+      spriteId: d51bea0812702a44e8e4be7d7cfa2ae2
+    - name: BossAtk_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 8
+        width: 50
+        height: 23
+      spriteId: 4aded1fd82e98c04eb113be1812ddc83
+    - name: BossAtk_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 8
+        width: 50
+        height: 23
+      spriteId: b87de2af514f2194498c30bc603dfaee
+    - name: BossAtk_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 8
+        width: 50
+        height: 23
+      spriteId: 14bb252a562c090449173c9b0be6b809
+    - name: BossAtk_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 8
+        width: 50
+        height: 23
+      spriteId: a9f04f7927a85404384614759b6686f8
+    - name: BossAtk_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 8
+        width: 50
+        height: 23
+      spriteId: 230971c8f91e7264e9f515a867df5853
+    - name: BossAtk_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 8
+        width: 50
+        height: 23
+      spriteId: ca4ad8736e9336d4e8d8b14fbc10a5d9
+    - name: BossAtk_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 8
+        width: 50
+        height: 23
+      spriteId: bbcd0843ae18fa74793181c309d67e53
+    - name: BossAtk_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 2
+        y: 9
+        width: 45
+        height: 20
+      spriteId: 33bd0a78794e08147914e0ea7b3fbf12
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 50, y: 50}

@@ -36,6 +36,7 @@ public class Base : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
     }
 
     private void AtkFalse()
