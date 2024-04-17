@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Potions : MonoBehaviour
 {
     public static Potions instance;
-    public int potionsCount;
+    public int potionsCount = 4;
     public Text potionsCountText;
 
 
@@ -28,7 +28,10 @@ public class Potions : MonoBehaviour
     }
     public void RemovePotions(int count)
     {
-        potionsCount -= count;
+        if (potionsCount > 0)
+        {
+            potionsCount -= count;
+        }
         UpdateTextUI();
     }
 

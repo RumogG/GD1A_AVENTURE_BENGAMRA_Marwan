@@ -44,10 +44,20 @@ public class HealthBar : MonoBehaviour
         {
             easeHealthSlider.value = Mathf.Lerp(easeHealthSlider.value, health, lerpSpeed);
         }
+
+        if(health > maxHealth)
+        {
+            health = 100;
+        }
     }
 
     public void TakeDamage(float damage)
     {
         health -= damage;
+    }
+
+    public void Regen(float hp)
+    {
+        health += hp;
     }
 }

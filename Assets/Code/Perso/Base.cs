@@ -37,6 +37,12 @@ public class Base : MonoBehaviour
             Destroy(gameObject);
         }
 
+        if (Input.GetKeyDown(KeyCode.LeftControl) && (Potions.instance.potionsCount > 0))
+        {
+            HealthBar.instance.Regen(50);
+            Potions.instance.RemovePotions(1);
+        }
+
     }
 
     private void AtkFalse()
