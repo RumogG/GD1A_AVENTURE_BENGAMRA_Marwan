@@ -8,11 +8,8 @@ public class BossComportement : MonoBehaviour
     public bool canAtk = false;
     public float atkCount = 0;
     public int tpYes = 0;
+    public bool alive = false;
 
-    void Start()
-    {
-        StartCoroutine(ReactiveAtk());
-    }
     void Update()
     {
         if(canAtk == true)
@@ -24,6 +21,12 @@ public class BossComportement : MonoBehaviour
         {
             atkCount = 0;
             TpAnim();
+        }
+
+        if ((HealthBarBoss.instance.health <= 0) && (alive == true))
+        {
+            Destroy(gameObject);
+            HealthBarBoss.instance.Off();
         }
     }
 
@@ -51,6 +54,15 @@ public class BossComportement : MonoBehaviour
     {
         BossAtk.instance.launchAtk();
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Perso"))
+        {
+            StartCoroutine(ReactiveAtk());
+            HealthBarBoss.instance.On();
+            alive = true;
+        }
+    }
 
     public void TpAnim()
     {
@@ -61,9 +73,9 @@ public class BossComportement : MonoBehaviour
     {
         Vector2 newPos;
 
-        newPos.x = Random.Range(-2, -0.8f);
+        newPos.x = Random.Range(-2.8f, 2.8f);
 
-        newPos.y = Random.Range(-0.8f, 0.4f);
+        newPos.y = Random.Range(1.4f, 4.1f);
 
         gameObject.transform.position = newPos;
 

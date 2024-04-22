@@ -7,7 +7,9 @@ public class Base : MonoBehaviour
     public Animator animator;
     public Rigidbody2D rb;
     public bool CanAtk = true;
-
+    public bool healing = false;
+    public int healingcount = 0;
+    public bool canHeal = true;
 
     void Update()
     {
@@ -37,12 +39,32 @@ public class Base : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftControl) && (Potions.instance.potionsCount > 0))
+        if (Input.GetKeyDown(KeyCode.LeftControl) && (Potions.instance.potionsCount > 0) && (canHeal == true))
         {
-            HealthBar.instance.Regen(50);
+            canHeal = false;
+            healing = true; 
+            StartCoroutine(Healing());
             Potions.instance.RemovePotions(1);
         }
 
+        if (healingcount == 40)
+        {
+            healing = false;
+            canHeal = true;
+            healingcount = 0;
+        }
+
+    }
+
+    public IEnumerator Healing()
+    {
+        while (healing == true)
+        {
+            HealthBar.instance.Regen(2);
+            healingcount += 2;
+            yield return new WaitForSeconds(0.1f);
+        }
+            
     }
 
     private void AtkFalse()

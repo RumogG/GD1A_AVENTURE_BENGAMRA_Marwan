@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Perso
   - Coin
+  - Boss
   layers:
   - Default
   - TransparentFX

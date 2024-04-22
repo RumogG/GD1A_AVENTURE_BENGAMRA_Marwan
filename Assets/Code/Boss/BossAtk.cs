@@ -8,6 +8,7 @@ public class BossAtk : MonoBehaviour
     public Animator animator;
     public float damage;
     private bool canAtk = false;
+    private bool selfAtk = false;
     public void Awake()
     {
         if (instance != null)
@@ -29,12 +30,22 @@ public class BossAtk : MonoBehaviour
         {
             canAtk = true;
         }
+
+        if (collision.CompareTag("Boss"))
+        {
+            selfAtk = true;
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Perso"))
         {
             canAtk = false;
+        }
+
+        if (collision.CompareTag("Boss"))
+        {
+            selfAtk = false;
         }
     }
     public void launchAtk()
@@ -48,6 +59,11 @@ public class BossAtk : MonoBehaviour
         if (canAtk == true)
         {
             HealthBar.instance.TakeDamage(damage);
+        }
+
+        if (selfAtk == true)
+        {
+            HealthBarBoss.instance.TakeDamage(damage);
         }
     }
 
