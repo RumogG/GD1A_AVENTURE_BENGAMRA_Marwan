@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class BossComportement : MonoBehaviour
 {
+    public GameObject token;
     public Animator animator;
     public bool canAtk = false;
     public float atkCount = 0;
     public int tpYes = 0;
     public bool alive = false;
 
+    void Awake()
+    {
+        token.SetActive(false);
+    }
     void Update()
     {
         if(canAtk == true)
@@ -27,6 +32,7 @@ public class BossComportement : MonoBehaviour
         {
             Destroy(gameObject);
             HealthBarBoss.instance.Off();
+            token.SetActive(true);
         }
     }
 
@@ -73,9 +79,9 @@ public class BossComportement : MonoBehaviour
     {
         Vector2 newPos;
 
-        newPos.x = Random.Range(-2.8f, 2.8f);
+        newPos.x = Random.Range(-2.5f, 2.5f);
 
-        newPos.y = Random.Range(1.4f, 4.1f);
+        newPos.y = Random.Range(1.9f, 3.7f);
 
         gameObject.transform.position = newPos;
 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cd43f31d3448f884b8dafd1a9163fe80
+guid: 085c45a0d718ac84f8419604601b6158
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -32,7 +32,7 @@ ScriptedImporter:
     sRGBTexture: 1
     spriteMode: 2
     spriteExtrude: 1
-    spriteMeshType: 0
+    spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
     spritePixelsToUnits: 100
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638499053903819298
+  platformSettingsDirtyTick: 638499082813955219
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Planks_Frame_0
+  - name: Rock_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 32
-    spriteID: 81cadecbc04805f4a9d3a5117ed82036
+    spriteID: 969bcb1eccae8c74c95004bd15255a11
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Planks_Frame_1
+  - name: Rock_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 44
       width: 32
       height: 32
-    spriteID: f527322dfe6846c42aa04fd71f2bf739
+    spriteID: 3b5ee53d3d1cfab459da41e2ab6ea464
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 44}
-  - name: Planks_Frame_2
+  - name: Rock_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 84
       width: 32
       height: 32
-    spriteID: 7dea3a7c091417c4289bd7e7ba4a68ba
+    spriteID: 25ce8955ce6eca24abd3cf6af7f37ebb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 84}
-  - name: Planks_Frame_3
+  - name: Rock_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 32
-    spriteID: 93144bde4eeea1449971fc0cb7c274d8
+    spriteID: 15a0c25d7d14980409cef2c8cd9b057a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,7 +201,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 44, y: 4}
-  - name: Planks_Frame_4
+  - name: Rock_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 44
       width: 32
       height: 32
-    spriteID: f990e6aa1aa5f4b499fcbbb1c9cac67b
+    spriteID: 92b2940602e2b1344a14be2ada9ce13c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -221,8 +221,48 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 44, y: 44}
+  - name: Rock_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 84
+      width: 32
+      height: 32
+    spriteID: cb9600e6ee2e1d9418893fa90eb7cc86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 84}
+  - name: Rock_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 4
+      width: 32
+      height: 32
+    spriteID: bd8cfd59212f88249aea90b15cc0fdc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 4}
   spriteSheetImportData:
-  - name: Planks_0
+  - name: Rock_0
     originalName: 
     pivot: {x: 0, y: 0}
     alignment: 0
@@ -233,7 +273,7 @@ ScriptedImporter:
       y: 84
       width: 32
       height: 32
-    spriteID: f2d90cb636f539c4eb922c0a30b07dba
+    spriteID: 24a6c86e00b272342b5037f06d2f1aad
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -242,7 +282,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Planks_1
+  - name: Rock_1
     originalName: 
     pivot: {x: 0, y: 0}
     alignment: 0
@@ -251,9 +291,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 44
       y: 84
-      width: 31
+      width: 32
       height: 32
-    spriteID: 167df6a2383263c4f938194c548c3e13
+    spriteID: db56f5ba78b0c4f4eaffe9d993eec8f4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -262,7 +302,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Planks_2
+  - name: Rock_2
     originalName: 
     pivot: {x: 0, y: 0}
     alignment: 0
@@ -273,7 +313,7 @@ ScriptedImporter:
       y: 44
       width: 32
       height: 32
-    spriteID: 81eca19e324312142a539d508d467e51
+    spriteID: 682011b3135b0ab428b863c24a8ab30d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -282,7 +322,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Planks_3
+  - name: Rock_3
     originalName: 
     pivot: {x: 0, y: 0}
     alignment: 0
@@ -293,7 +333,7 @@ ScriptedImporter:
       y: 44
       width: 32
       height: 32
-    spriteID: 5f51305851d01b4469bfd98a4d2cc098
+    spriteID: 7d3aeb27b3eb3d34d8f7ca8814e5fe0f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -302,7 +342,27 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Planks_4
+  - name: Rock_4
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 44
+      width: 32
+      height: 32
+    spriteID: 14695c92c6c2eae488528e25a23b6f48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Rock_5
     originalName: 
     pivot: {x: 0, y: 0}
     alignment: 0
@@ -313,7 +373,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 32
-    spriteID: a87878004b18a6f4380907043afd1ed0
+    spriteID: 65ee501d09191c443a3634a89b27c45f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -322,9 +382,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Planks_5
+  - name: Rock_6
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -333,7 +393,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 32
-    spriteID: a293ef0b412e8794bb0c5592b6d20790
+    spriteID: 8930d473b44dae6459a3707ef16a7a5c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -342,7 +402,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Planks_6
+  - name: Rock_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -351,9 +411,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 84
       y: 4
-      width: 29
+      width: 32
       height: 32
-    spriteID: e2cdf2947487b314db4adc89cc6f2f1a
+    spriteID: e3b8ae770182f214887dd42ac29a25ad
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -364,68 +424,76 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: -1209225561
-    name: Planks
+    guid: 419320357
+    name: Rock
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Planks_Frame_0
+    - name: Rock_Frame_0
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 32
-      spriteId: 81cadecbc04805f4a9d3a5117ed82036
-    - name: Planks_Frame_1
+      spriteId: 969bcb1eccae8c74c95004bd15255a11
+    - name: Rock_Frame_1
       frameIndex: 1
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 32
-      spriteId: f527322dfe6846c42aa04fd71f2bf739
-    - name: Planks_Frame_2
+      spriteId: 3b5ee53d3d1cfab459da41e2ab6ea464
+    - name: Rock_Frame_2
       frameIndex: 2
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 32
-      spriteId: 7dea3a7c091417c4289bd7e7ba4a68ba
-    - name: Planks_Frame_3
+      spriteId: 25ce8955ce6eca24abd3cf6af7f37ebb
+    - name: Rock_Frame_3
       frameIndex: 3
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 32
-      spriteId: 93144bde4eeea1449971fc0cb7c274d8
-    - name: Planks_Frame_4
+      spriteId: 15a0c25d7d14980409cef2c8cd9b057a
+    - name: Rock_Frame_4
       frameIndex: 4
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 32
-      spriteId: f990e6aa1aa5f4b499fcbbb1c9cac67b
-    - name: Planks_Frame_5
+      spriteId: 92b2940602e2b1344a14be2ada9ce13c
+    - name: Rock_Frame_5
       frameIndex: 5
       cellRect:
         x: 0
         y: 0
-        width: 31
+        width: 32
         height: 32
-      spriteId: 1c54a24d9c059ab45ac7cebbb0be66c5
-    - name: Planks_Frame_6
+      spriteId: cb9600e6ee2e1d9418893fa90eb7cc86
+    - name: Rock_Frame_6
       frameIndex: 6
       cellRect:
         x: 0
         y: 0
-        width: 29
+        width: 32
         height: 32
-      spriteId: 9a43cda86b0188544b61d427d17a5dce
+      spriteId: bd8cfd59212f88249aea90b15cc0fdc6
+    - name: Rock_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      spriteId: 1f53145830fc1a0419eb78aa6d477705
     linkedCells: []
     parentIndex: -1
   platformSettings:

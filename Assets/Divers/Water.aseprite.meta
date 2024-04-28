@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cd43f31d3448f884b8dafd1a9163fe80
+guid: 4460350d63132044ba8872ecc66714e6
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638499053903819298
+  platformSettingsDirtyTick: 638499071085332688
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,9 +121,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Planks_Frame_0
+  - name: Water_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.49999997, y: -1}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 32
-    spriteID: 81cadecbc04805f4a9d3a5117ed82036
+    spriteID: fe418c4667a873641b59bcbe5ace0e63
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,9 +141,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Planks_Frame_1
+  - name: Water_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.49999997, y: -1}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 44
       width: 32
       height: 32
-    spriteID: f527322dfe6846c42aa04fd71f2bf739
+    spriteID: f30959b9f70fd994f8e4cfd7aae4e3d5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,9 +161,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 44}
-  - name: Planks_Frame_2
+  - name: Water_Frame_2
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.49999997, y: -1}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 84
       width: 32
       height: 32
-    spriteID: 7dea3a7c091417c4289bd7e7ba4a68ba
+    spriteID: 4f180c3b47ce02e478ce9c4fb885c06a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,9 +181,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 84}
-  - name: Planks_Frame_3
+  - name: Water_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.49999997, y: -1}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 32
-    spriteID: 93144bde4eeea1449971fc0cb7c274d8
+    spriteID: fa8c1739bbdfa0b44b1783a2ac599cf2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,9 +201,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 44, y: 4}
-  - name: Planks_Frame_4
+  - name: Water_Frame_4
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.49999997, y: -1}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 44
       width: 32
       height: 32
-    spriteID: f990e6aa1aa5f4b499fcbbb1c9cac67b
+    spriteID: 4a87dc22a904686488cc3de4a3620fdb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -221,10 +221,90 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 44, y: 44}
+  - name: Water_Frame_5
+    originalName: 
+    pivot: {x: 0.49999997, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 84
+      width: 32
+      height: 32
+    spriteID: bcf707bb6e9663e40996ed71d21437c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 84}
+  - name: Water_Frame_6
+    originalName: 
+    pivot: {x: 0.49999997, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 4
+      width: 32
+      height: 32
+    spriteID: 89d49010a726de2479718be5f71781e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 4}
+  - name: Water_Frame_7
+    originalName: 
+    pivot: {x: 0.49999997, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 44
+      width: 32
+      height: 32
+    spriteID: 3e542a3ffdc18d0418871cd669b870d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 44}
+  - name: Water_Frame_8
+    originalName: 
+    pivot: {x: 0.49999997, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 84
+      width: 32
+      height: 32
+    spriteID: aec950804be39744988559b65194a2b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 84}
   spriteSheetImportData:
-  - name: Planks_0
+  - name: Water_0
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -233,7 +313,7 @@ ScriptedImporter:
       y: 84
       width: 32
       height: 32
-    spriteID: f2d90cb636f539c4eb922c0a30b07dba
+    spriteID: 3bece1cf65efece4c89000216795c725
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -242,18 +322,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Planks_1
+  - name: Water_1
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 44
       y: 84
-      width: 31
+      width: 32
       height: 32
-    spriteID: 167df6a2383263c4f938194c548c3e13
+    spriteID: 6d72cb20e5d045145abedf88c6a88d17
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -262,9 +342,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Planks_2
+  - name: Water_2
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 84
+      width: 32
+      height: 32
+    spriteID: 7dcd5b9217feb424ebb1a6edd2a3b376
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Water_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -273,7 +373,7 @@ ScriptedImporter:
       y: 44
       width: 32
       height: 32
-    spriteID: 81eca19e324312142a539d508d467e51
+    spriteID: b884aa4fcfef8d24bb5d7ee083f5023e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -282,9 +382,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Planks_3
+  - name: Water_4
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -293,7 +393,7 @@ ScriptedImporter:
       y: 44
       width: 32
       height: 32
-    spriteID: 5f51305851d01b4469bfd98a4d2cc098
+    spriteID: 01081953202c86e44b8ffc958933d654
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -302,9 +402,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Planks_4
+  - name: Water_5
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 44
+      width: 32
+      height: 32
+    spriteID: ba5c20622a49ac04bb56447b24e163dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Water_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -313,7 +433,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 32
-    spriteID: a87878004b18a6f4380907043afd1ed0
+    spriteID: 7d82bde077afa664eb0bf648755b7526
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -322,7 +442,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Planks_5
+  - name: Water_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -333,7 +453,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 32
-    spriteID: a293ef0b412e8794bb0c5592b6d20790
+    spriteID: a05e39f1ace5a1d40a98c6376b964b3b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -342,7 +462,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Planks_6
+  - name: Water_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -351,9 +471,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 84
       y: 4
-      width: 29
+      width: 32
       height: 32
-    spriteID: e2cdf2947487b314db4adc89cc6f2f1a
+    spriteID: 6fe1258ee237d4845af6dce5928fe8e1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -364,68 +484,84 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: -1209225561
-    name: Planks
+    guid: -1947084123
+    name: Water
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Planks_Frame_0
+    - name: Water_Frame_0
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 32
-      spriteId: 81cadecbc04805f4a9d3a5117ed82036
-    - name: Planks_Frame_1
+      spriteId: fe418c4667a873641b59bcbe5ace0e63
+    - name: Water_Frame_1
       frameIndex: 1
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 32
-      spriteId: f527322dfe6846c42aa04fd71f2bf739
-    - name: Planks_Frame_2
+      spriteId: f30959b9f70fd994f8e4cfd7aae4e3d5
+    - name: Water_Frame_2
       frameIndex: 2
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 32
-      spriteId: 7dea3a7c091417c4289bd7e7ba4a68ba
-    - name: Planks_Frame_3
+      spriteId: 4f180c3b47ce02e478ce9c4fb885c06a
+    - name: Water_Frame_3
       frameIndex: 3
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 32
-      spriteId: 93144bde4eeea1449971fc0cb7c274d8
-    - name: Planks_Frame_4
+      spriteId: fa8c1739bbdfa0b44b1783a2ac599cf2
+    - name: Water_Frame_4
       frameIndex: 4
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 32
-      spriteId: f990e6aa1aa5f4b499fcbbb1c9cac67b
-    - name: Planks_Frame_5
+      spriteId: 4a87dc22a904686488cc3de4a3620fdb
+    - name: Water_Frame_5
       frameIndex: 5
       cellRect:
         x: 0
         y: 0
-        width: 31
+        width: 32
         height: 32
-      spriteId: 1c54a24d9c059ab45ac7cebbb0be66c5
-    - name: Planks_Frame_6
+      spriteId: bcf707bb6e9663e40996ed71d21437c1
+    - name: Water_Frame_6
       frameIndex: 6
       cellRect:
         x: 0
         y: 0
-        width: 29
+        width: 32
         height: 32
-      spriteId: 9a43cda86b0188544b61d427d17a5dce
+      spriteId: 89d49010a726de2479718be5f71781e2
+    - name: Water_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      spriteId: 3e542a3ffdc18d0418871cd669b870d4
+    - name: Water_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      spriteId: aec950804be39744988559b65194a2b2
     linkedCells: []
     parentIndex: -1
   platformSettings:

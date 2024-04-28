@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cd43f31d3448f884b8dafd1a9163fe80
+guid: dec16b42d00c71244a49cd0c5d88d740
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -32,7 +32,7 @@ ScriptedImporter:
     sRGBTexture: 1
     spriteMode: 2
     spriteExtrude: 1
-    spriteMeshType: 0
+    spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
     spritePixelsToUnits: 100
@@ -71,7 +71,7 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
-    fileImportMode: 0
+    fileImportMode: 1
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -84,7 +84,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   asepriteImporterSettings:
-    fileImportMode: 0
+    fileImportMode: 1
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638499053903819298
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,98 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Planks_Frame_0
+  - name: Token
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.23809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 69
+      width: 14
+      height: 21
+    spriteID: c7a79506e4c1ab24ba50ee2d6b33e0a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 69}
+  - name: Token_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 98
+      width: 14
+      height: 21
+    spriteID: 5b73f936a9147454db7b3afc3e5b0f13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 98}
+  - name: Token_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 4
+      width: 14
+      height: 21
+    spriteID: 2a111b481176bb347b571e4fd1fe2915
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 4}
+  - name: Token_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.13043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 38
+      width: 14
+      height: 23
+    spriteID: 2911c96416b661c48bd2f3ef984ffd75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 38}
+  - name: Token_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.11538462}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 32
-      height: 32
-    spriteID: 81cadecbc04805f4a9d3a5117ed82036
+      width: 14
+      height: 26
+    spriteID: 188db8cd837c1ff46a34f3fe096c9e2f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,18 +221,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Planks_Frame_1
+  - name: Token_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.1904762}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 44
-      width: 32
-      height: 32
-    spriteID: f527322dfe6846c42aa04fd71f2bf739
+      x: 26
+      y: 33
+      width: 14
+      height: 21
+    spriteID: a94222b2af01c1c43b9f8dff811d165f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,19 +240,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 44}
-  - name: Planks_Frame_2
+    uvTransform: {x: 26, y: 33}
+  - name: Token_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.23809524}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 84
-      width: 32
-      height: 32
-    spriteID: 7dea3a7c091417c4289bd7e7ba4a68ba
+      x: 26
+      y: 62
+      width: 14
+      height: 21
+    spriteID: 0a3573b7a5e4be44eb455ba122ba4831
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,19 +260,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 84}
-  - name: Planks_Frame_3
+    uvTransform: {x: 26, y: 62}
+  - name: Token_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.23809524}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 44
-      y: 4
-      width: 32
-      height: 32
-    spriteID: 93144bde4eeea1449971fc0cb7c274d8
+      x: 26
+      y: 91
+      width: 14
+      height: 21
+    spriteID: 3c72f3812a3130e4d96abcb8a9815b9a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,259 +280,83 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 44, y: 4}
-  - name: Planks_Frame_4
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 44
-      y: 44
-      width: 32
-      height: 32
-    spriteID: f990e6aa1aa5f4b499fcbbb1c9cac67b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 44, y: 44}
-  spriteSheetImportData:
-  - name: Planks_0
-    originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 84
-      width: 32
-      height: 32
-    spriteID: f2d90cb636f539c4eb922c0a30b07dba
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Planks_1
-    originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 44
-      y: 84
-      width: 31
-      height: 32
-    spriteID: 167df6a2383263c4f938194c548c3e13
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Planks_2
-    originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 44
-      width: 32
-      height: 32
-    spriteID: 81eca19e324312142a539d508d467e51
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Planks_3
-    originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 44
-      y: 44
-      width: 32
-      height: 32
-    spriteID: 5f51305851d01b4469bfd98a4d2cc098
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Planks_4
-    originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 32
-      height: 32
-    spriteID: a87878004b18a6f4380907043afd1ed0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Planks_5
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 44
-      y: 4
-      width: 32
-      height: 32
-    spriteID: a293ef0b412e8794bb0c5592b6d20790
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Planks_6
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 84
-      y: 4
-      width: 29
-      height: 32
-    spriteID: e2cdf2947487b314db4adc89cc6f2f1a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
+    uvTransform: {x: 26, y: 91}
+  spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1209225561
-    name: Planks
+    guid: 278178195
+    name: Token
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Planks_Frame_0
+    - name: Token_Frame_0
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      spriteId: 81cadecbc04805f4a9d3a5117ed82036
-    - name: Planks_Frame_1
+        x: 9
+        y: 5
+        width: 14
+        height: 21
+      spriteId: c7a79506e4c1ab24ba50ee2d6b33e0a3
+    - name: Token_Frame_1
       frameIndex: 1
       cellRect:
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      spriteId: f527322dfe6846c42aa04fd71f2bf739
-    - name: Planks_Frame_2
+        x: 9
+        y: 4
+        width: 14
+        height: 21
+      spriteId: 5b73f936a9147454db7b3afc3e5b0f13
+    - name: Token_Frame_2
       frameIndex: 2
       cellRect:
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      spriteId: 7dea3a7c091417c4289bd7e7ba4a68ba
-    - name: Planks_Frame_3
+        x: 9
+        y: 3
+        width: 14
+        height: 21
+      spriteId: 2a111b481176bb347b571e4fd1fe2915
+    - name: Token_Frame_3
       frameIndex: 3
       cellRect:
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      spriteId: 93144bde4eeea1449971fc0cb7c274d8
-    - name: Planks_Frame_4
+        x: 9
+        y: 3
+        width: 14
+        height: 23
+      spriteId: 2911c96416b661c48bd2f3ef984ffd75
+    - name: Token_Frame_4
       frameIndex: 4
       cellRect:
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      spriteId: f990e6aa1aa5f4b499fcbbb1c9cac67b
-    - name: Planks_Frame_5
+        x: 9
+        y: 3
+        width: 14
+        height: 26
+      spriteId: 188db8cd837c1ff46a34f3fe096c9e2f
+    - name: Token_Frame_5
       frameIndex: 5
       cellRect:
-        x: 0
-        y: 0
-        width: 31
-        height: 32
-      spriteId: 1c54a24d9c059ab45ac7cebbb0be66c5
-    - name: Planks_Frame_6
+        x: 9
+        y: 4
+        width: 14
+        height: 21
+      spriteId: a94222b2af01c1c43b9f8dff811d165f
+    - name: Token_Frame_6
       frameIndex: 6
       cellRect:
-        x: 0
-        y: 0
-        width: 29
-        height: 32
-      spriteId: 9a43cda86b0188544b61d427d17a5dce
+        x: 9
+        y: 5
+        width: 14
+        height: 21
+      spriteId: 0a3573b7a5e4be44eb455ba122ba4831
+    - name: Token_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 9
+        y: 5
+        width: 14
+        height: 21
+      spriteId: 3c72f3812a3130e4d96abcb8a9815b9a
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
